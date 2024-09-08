@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'kaibot')
 API_ID = int(environ.get('API_ID', '24401235'))
 API_HASH = environ.get('API_HASH', '149f7e13d7d861b27cffc3ab1fd52b22')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7052301883:AAFHRVDs01okjZAMbBPNpoz5OIXnhoARDjk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7052301883:AAH5d8pd4BxZw-pi3S8WzbDNdywwbjm9ol0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -143,7 +143,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://real-gladi-deployingbots-6b0ca221.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
