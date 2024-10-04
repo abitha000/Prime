@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'kaibot')
 API_ID = int(environ.get('API_ID', '24401235'))
 API_HASH = environ.get('API_HASH', '149f7e13d7d861b27cffc3ab1fd52b22')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7052301883:AAEDgpxaEKDAIsYdvxY93pxXdWB61Fw9cNM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7052301883:AAHe2D9HQ3zc_IK6jHj0nqjC1O6vXvNTDGw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
